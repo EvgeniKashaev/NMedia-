@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">NMedia</string>
     <string name="str_media">NMedia!</string>
-    <string name="avtor" translatable="false">Нетология. Университет интернет-професий 123456456546</string>
+    <string name="avtor" translatable="false">Нетология. Университет интернет-професий</string>
     <string name="date" translatable="false">21 мая в 18:36</string>
+    <string name="text" translatable="false">Обратите внимание на блок с количеством просмотров. С ним есть небольшая проблема, поскольку он расположен справа. Если количество просмотров вырастет, например, до 500, то есть два варианта:
+
+Установить фиксированное расстояние от текста до границы родителя, а саму иконку приклеить к границе текста.
+Оставить достаточное количество места, чтобы поместилось и 500, и 1К. Тогда на всех карточках положение этого блока будет одинаковым.</string>
+    <string name="text_likes" translatable="false">0</string>
+    <string name="share" translatable="false">0</string>
+    <string name="text_views" translatable="false">500</string>
 </resources>
