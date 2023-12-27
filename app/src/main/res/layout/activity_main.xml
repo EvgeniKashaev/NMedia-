@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#9C27B0"
+    android:backgroundTint="#54275C"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -45,15 +45,15 @@
 
     <TextView
         android:id="@+id/textDate"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ellipsize="end"
-        android:maxLines="1"
+        android:maxLines="10"
         android:text="@string/date"
         app:layout_constraintBottom_toBottomOf="@+id/ivAvatar"
         app:layout_constraintStart_toEndOf="@+id/ivAvatar"
-        app:layout_constraintTop_toBottomOf="@+id/ivMenu"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
         app:layout_constraintVertical_bias="0.0" />
 
     <ImageView
@@ -85,7 +85,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@+id/ivLikes"
         app:layout_constraintEnd_toStartOf="@+id/ivViews"
-        app:layout_constraintStart_toEndOf="@+id/ivLikes"
+        app:layout_constraintStart_toEndOf="@+id/textLikes"
         app:layout_constraintTop_toTopOf="@+id/ivLikes"
         app:srcCompat="@drawable/baseline_share_24" />
 
@@ -93,7 +93,7 @@
         android:id="@+id/textLikes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="5dp"
         android:text="@string/text_likes"
         app:layout_constraintBottom_toBottomOf="@+id/ivLikes"
         app:layout_constraintStart_toEndOf="@+id/ivLikes"
@@ -121,9 +121,9 @@
 
     <TextView
         android:id="@+id/textShare"
-        android:layout_width="14dp"
-        android:layout_height="17dp"
-        android:layout_marginStart="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
         android:text="@string/share"
         app:layout_constraintBottom_toBottomOf="@+id/ivShare"
         app:layout_constraintEnd_toStartOf="@+id/ivViews"
